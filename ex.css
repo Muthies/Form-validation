@@ -1,0 +1,19 @@
+div{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height:600px;
+    width:500px;
+    background-color: rgb(121, 241, 121);
+    border-radius: 50px 10px;
+}
+button{
+   background-color:darkgreen;
+   color:white;
+   width:100px;
+   height:40px;
+   font-size: medium;
+   border-radius: 10px 10px;
+}
+body{
+    background-color:beige;
+}

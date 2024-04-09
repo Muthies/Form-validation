@@ -1,1 +1,34 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="ex.css">
+  <title>Form</title>
+</head>
+<body>
+  <center>
+  <div>
+    <br><br>
+    <h1>VALIDATE FORM</h1><br><br>
+    <form onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name"><br><br>
+      <label for="userid">Userid:</label>
+      <input type="text" id="userid" placeholder="Enter your userid"><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="number" id="phone" placeholder="Enter your phone number" onblur="validatePhone()"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Enter your email" onblur="validateemail()"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="text" id="password" placeholder="Enter your password" onblur="validatepass()" ><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+<script type="text/javascript" src="ex.js"></script>
+</center>
+</body>
+</html>
